@@ -1,43 +1,43 @@
 # 🚀 100 Days Building AI Products
-### خطة متكاملة من الصفر إلى الاحتراف في بناء منتجات الذكاء الاصطناعي
+### A Complete Roadmap from Zero to Professional AI Product Builder
 
-> **100 يوم · 5 مراحل · 50+ مشروع عملي · 300+ رابط مجاني**
+> **100 Days · 5 Phases · 50+ Hands-on Projects · 300+ Free Resources**
 
 ---
 
-## 📋 نظرة عامة على الخطة
+## 📋 Roadmap Overview
 
-| المرحلة | الأيام | الموضوع الرئيسي |
+| Phase | Days | Main Focus |
 |---|---|---|
-| 🟣 Phase 1 | 1–20 | الأساسيات: Python، LLMs، APIs، أول Chatbot |
-| 🔵 Phase 2 | 21–40 | RAG، Image، Voice، LangChain، FastAPI |
-| 🟢 Phase 3 | 41–60 | AI Agents، CrewAI، LangGraph، Automation |
-| 🟡 Phase 4 | 61–80 | Fine-tuning، Docker، Cloud Deploy، SaaS |
-| 🔴 Phase 5 | 81–100 | Product Launch، Marketing، Scaling |
+| 🟣 Phase 1 | 1–20 | Foundations: Python, LLMs, APIs, First Chatbot |
+| 🔵 Phase 2 | 21–40 | RAG, Image, Voice, LangChain, FastAPI |
+| 🟢 Phase 3 | 41–60 | AI Agents, CrewAI, LangGraph, Automation |
+| 🟡 Phase 4 | 61–80 | Fine-tuning, Docker, Cloud Deploy, SaaS |
+| 🔴 Phase 5 | 81–100 | Product Launch, Marketing, Scaling |
 
 ---
 
-## 🟣 المرحلة الأولى — الأساسيات والبنية التحتية (Days 1–20)
+## 🟣 Phase 1 — Foundations & Infrastructure (Days 1–20)
 
-> تعلّم أساسيات Python وLLMs والـ APIs — حجر الأساس لكل شيء بعدها
+> Learn Python, LLMs, and APIs — the cornerstone of everything that follows
 
 ---
 
-### Day 1 — ما هو الذكاء الاصطناعي؟ الصورة الكبيرة
+### Day 1 — What is AI? The Big Picture
 
-افهم الفرق بين AI, ML, DL, GenAI. شاهد المقدمة الشاملة قبل ما تكتب أي كود.
+Understand the difference between AI, ML, DL, and GenAI. Watch a comprehensive intro before writing any code.
 
 **`Beginner`**
 
 - 🎬 [3Blue1Brown - Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk)
 - 📚 [AI For Everyone - Andrew Ng (Coursera)](https://www.coursera.org/learn/ai-for-everyone)
-- 🔵 [IBM: What is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)
+- 🎬 [IBM: What is AI?](https://www.youtube.com/watch?v=a0_lo_GDcFw)
 
 ---
 
-### Day 2 — Python للـ AI: السريع والكافي
+### Day 2 — Python for AI: The Fast Track
 
-لو مش متقن Python، هنا هتتعلم كل اللي محتاجه في يوم واحد — Lists, Dicts, Functions, Classes.
+If you're not fluent in Python, learn everything you need in one day — Lists, Dicts, Functions, Classes.
 
 **`Python`**
 
@@ -47,9 +47,9 @@
 
 ---
 
-### Day 3 — Jupyter Notebooks وبيئة العمل
+### Day 3 — Jupyter Notebooks & Development Environment
 
-ثبّت Anaconda أو استخدم Google Colab. تعلّم كيف تكتب كود وتجرّب بسرعة.
+Set up Anaconda or use Google Colab. Learn how to write and experiment with code quickly.
 
 **`Setup`**
 
@@ -59,9 +59,9 @@
 
 ---
 
-### Day 4 — كيف تشتغل LLMs؟ الشرح الجوهري
+### Day 4 — How Do LLMs Work? The Core Explanation
 
-افهم Transformers وTokenization وAttention. فيديو Andrej Karpathy الأشهر في التاريخ.
+Understand Transformers, Tokenization, and Attention. Andrej Karpathy's most famous video ever.
 
 **`LLM Theory`**
 
@@ -71,9 +71,9 @@
 
 ---
 
-### Day 5 — أول استخدام لـ OpenAI API
+### Day 5 — First OpenAI API Call
 
-اشترك في OpenAI، خذ API Key، وابنِ أول script يكلّم GPT من Python.
+Sign up for OpenAI, get your API Key, and build your first Python script that talks to GPT.
 
 **`API`**
 
@@ -83,9 +83,9 @@
 
 ---
 
-### Day 6 — Prompt Engineering: الأساسيات
+### Day 6 — Prompt Engineering: The Fundamentals
 
-تعلّم Zero-shot, Few-shot, Chain of Thought. الـ Prompt الجيد يساوي كود كامل.
+Learn Zero-shot, Few-shot, and Chain of Thought prompting. A great prompt is worth an entire codebase.
 
 **`Prompting`**
 
@@ -97,7 +97,7 @@
 
 ### Day 7 — Anthropic Claude API
 
-جرّب Claude API وقارنه بـ GPT. تعلّم Anthropic SDK وSystem Prompts.
+Try the Claude API and compare it with GPT. Learn the Anthropic SDK and System Prompts.
 
 **`Claude`**
 
@@ -107,9 +107,9 @@
 
 ---
 
-### Day 8 — Tokens, Context Windows, وCosts
+### Day 8 — Tokens, Context Windows & Costs
 
-افهم كيف تُحسب Tokens وكيف تختار النموذج الصح. وفّر مصاريف API بذكاء.
+Understand how tokens are counted and how to choose the right model. Save API costs intelligently.
 
 **`API` · `Costs`**
 
@@ -119,9 +119,9 @@
 
 ---
 
-### Day 9 — أول Chatbot: CLI بسيط
+### Day 9 — First Chatbot: Simple CLI
 
-ابنِ Chatbot في Terminal يحتفظ بـ Conversation History. أول تطبيق حقيقي ليك.
+Build a Terminal Chatbot that maintains Conversation History. Your first real application.
 
 **`Project` · `Python`**
 
@@ -131,9 +131,9 @@
 
 ---
 
-### Day 10 — Hugging Face: مكتبة النماذج الأشهر
+### Day 10 — Hugging Face: The Most Popular Model Library
 
-تعرّف على Hugging Face Hub. جرّب نماذج مجانية لـ Text, Image, Audio.
+Explore the Hugging Face Hub. Try free models for Text, Image, and Audio tasks.
 
 **`HuggingFace`**
 
@@ -143,9 +143,9 @@
 
 ---
 
-### Day 11 — Embeddings: الأرقام اللي تعبّر عن المعنى
+### Day 11 — Embeddings: Numbers That Represent Meaning
 
-افهم Vector Embeddings: كيف تحوّل النص لأرقام وكيف تستخدمها للبحث الذكي.
+Understand Vector Embeddings — how to convert text to numbers and use them for semantic search.
 
 **`Embeddings`**
 
@@ -155,9 +155,9 @@
 
 ---
 
-### Day 12 — Vector Databases: FAISS وChroma
+### Day 12 — Vector Databases: FAISS & Chroma
 
-خزّن Embeddings في قاعدة بيانات وابحث فيها بالمعنى مش بالكلمة. أساس الـ RAG.
+Store embeddings in a database and search them by meaning, not keyword. The foundation of RAG.
 
 **`VectorDB`**
 
@@ -167,9 +167,9 @@
 
 ---
 
-### Day 13 — Streamlit: ابنِ UI في ساعة
+### Day 13 — Streamlit: Build UI in One Hour
 
-حوّل كودك لـ Web App جميل في دقائق باستخدام Streamlit بدون أي HTML.
+Turn your code into a beautiful Web App in minutes using Streamlit — no HTML required.
 
 **`UI` · `Project`**
 
@@ -179,9 +179,9 @@
 
 ---
 
-### Day 14 — أول تطبيق ويب AI حقيقي
+### Day 14 — Your First Real AI Web App
 
-اجمع اللي اتعلمته: Streamlit + OpenAI API. ابنِ Text Summarizer أو Chatbot.
+Combine what you've learned: Streamlit + OpenAI API. Build a Text Summarizer or Chatbot.
 
 **`Project` · `Full App`**
 
@@ -191,9 +191,9 @@
 
 ---
 
-### Day 15 — LangChain: الإطار الأشهر لـ LLM Apps
+### Day 15 — LangChain: The Most Popular LLM Framework
 
-تعلّم LangChain من الصفر: Chains, PromptTemplates, OutputParsers.
+Learn LangChain from scratch: Chains, PromptTemplates, OutputParsers.
 
 **`LangChain`**
 
@@ -203,9 +203,9 @@
 
 ---
 
-### Day 16 — Memory في LangChain
+### Day 16 — Memory in LangChain
 
-أضف ذاكرة للـ Chatbot: ConversationBufferMemory, SummaryMemory، والفرق بينهم.
+Add memory to your Chatbot: ConversationBufferMemory, SummaryMemory, and the difference between them.
 
 **`LangChain` · `Memory`**
 
@@ -215,9 +215,9 @@
 
 ---
 
-### Day 17 — Output Parsers وStructured Data
+### Day 17 — Output Parsers & Structured Data
 
-خلّي LLM يرجع JSON منظّم. استخدم Pydantic مع LangChain لاستخراج بيانات.
+Make LLMs return structured JSON. Use Pydantic with LangChain to extract clean data.
 
 **`Structured`**
 
@@ -227,9 +227,9 @@
 
 ---
 
-### Day 18 — Git وGitHub للـ AI Projects
+### Day 18 — Git & GitHub for AI Projects
 
-احفظ كودك على GitHub، تعلّم branches ومتطلبات requirements.txt وenv files.
+Save your code on GitHub. Learn branches, requirements.txt, and env files.
 
 **`Tools`**
 
@@ -239,9 +239,9 @@
 
 ---
 
-### Day 19 — Open Source Models: Ollama وLocal LLMs
+### Day 19 — Open Source Models: Ollama & Local LLMs
 
-شغّل LLMs على جهازك مجاناً باستخدام Ollama: Llama 3, Mistral, Phi.
+Run LLMs on your machine for free using Ollama: Llama 3, Mistral, Phi.
 
 **`Open Source` · `Local`**
 
@@ -251,9 +251,9 @@
 
 ---
 
-### Day 20 — 🎯 Milestone: مشروع المرحلة الأولى
+### Day 20 — 🎯 Milestone: Phase 1 Project
 
-ابنِ تطبيق متكامل: **PDF Chatbot بسيط** باستخدام كل اللي اتعلمته.
+Build a complete app: **Simple PDF Chatbot** using everything you've learned.
 
 **`Milestone` · `Project`**
 
@@ -263,15 +263,15 @@
 
 ---
 
-## 🔵 المرحلة الثانية — بناء التطبيقات الأولى (Days 21–40)
+## 🔵 Phase 2 — Building Real Applications (Days 21–40)
 
-> ابنِ Chatbots وRAG Systems وتطبيقات حقيقية باستخدام أشهر الـ Frameworks
+> Build Chatbots, RAG Systems, and real applications using the most popular frameworks
 
 ---
 
 ### Day 21 — RAG: Retrieval Augmented Generation
 
-افهم RAG من الصفر: كيف تجعل LLM يجاوب من بياناتك الخاصة بدقة.
+Understand RAG from scratch: how to make an LLM answer accurately from your own data.
 
 **`RAG`**
 
@@ -281,9 +281,9 @@
 
 ---
 
-### Day 22 — ابنِ RAG Pipeline كامل
+### Day 22 — Build a Full RAG Pipeline
 
-Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كود من الصفر.
+Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. Code from scratch.
 
 **`RAG` · `Project`**
 
@@ -295,7 +295,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 23 — Document Loaders: PDF, Web, CSV
 
-تعلّم كيف تجهّز أي نوع ملفات للـ RAG: PDFs, Websites, Excel, Notion.
+Learn how to prepare any file type for RAG: PDFs, Websites, Excel, Notion.
 
 **`RAG` · `Data`**
 
@@ -307,7 +307,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 24 — Advanced Chunking Strategies
 
-الـ Chunking الخاطئ يدمّر الـ RAG. تعلّم Semantic Chunking, Recursive Splitting.
+Bad chunking ruins RAG. Learn Semantic Chunking and Recursive Splitting.
 
 **`RAG` · `Advanced`**
 
@@ -317,9 +317,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 25 — Pinecone وManaged Vector DBs
+### Day 25 — Pinecone & Managed Vector DBs
 
-انتقل من Chroma المحلية لـ Pinecone السحابية. ابنِ RAG يشتغل على الإنترنت.
+Move from local Chroma to cloud-hosted Pinecone. Build a RAG that runs on the internet.
 
 **`VectorDB` · `Cloud`**
 
@@ -329,33 +329,33 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 26 — Gradio: Interface AI بأسرع طريقة
+### Day 26 — Gradio: The Fastest Way to Build AI Interfaces
 
-ابنِ واجهة Demo احترافية لأي نموذج AI في 5 دقائق مع Gradio.
+Build a professional demo interface for any AI model in 5 minutes with Gradio.
 
 **`UI`**
 
-- 📚 [DeepLearning.AI: Gradio Course (Free)](https://www.deeplearning.ai/short-courses/building-generative-ai-applications-with-gradio/)
+- 📚 [DeepLearning.AI: Building GenAI Apps with Gradio (Free)](https://www.deeplearning.ai/short-courses/building-generative-ai-applications-with-gradio/)
 - 📚 [Gradio Documentation](https://www.gradio.app/docs)
 - 🎬 [Gradio Complete Tutorial](https://www.youtube.com/watch?v=RiCQzBluTxU)
 
 ---
 
-### Day 27 — Image Generation: DALL-E وStable Diffusion
+### Day 27 — Image Generation: DALL-E & Stable Diffusion
 
-استخدم DALL-E 3 API وابنِ Image Generator. تعرّف على Stable Diffusion مجاناً.
+Use the DALL-E 3 API and build an Image Generator. Explore Stable Diffusion for free.
 
 **`Image AI`**
 
 - 🎬 [DALL-E API Tutorial](https://www.youtube.com/watch?v=yCOl_aMbAaI)
-- 📚 [DeepLearning.AI: Diffusion Models (Free)](https://www.deeplearning.ai/short-courses/how-diffusion-models-work/)
+- 📚 [DeepLearning.AI: How Diffusion Models Work (Free)](https://www.deeplearning.ai/short-courses/how-diffusion-models-work/)
 - 🌐 [Stability AI Platform Docs](https://platform.stability.ai/docs)
 
 ---
 
 ### Day 28 — Speech to Text: Whisper API
 
-حوّل أي صوت لنص باستخدام Whisper من OpenAI. ابنِ Voice Transcriber.
+Convert any audio to text using OpenAI's Whisper. Build a Voice Transcriber.
 
 **`Audio`**
 
@@ -367,7 +367,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 29 — Text to Speech: ElevenLabs API
 
-حوّل النصوص لصوت بشري طبيعي باستخدام ElevenLabs أو OpenAI TTS.
+Convert text to natural human-sounding voice using ElevenLabs or OpenAI TTS.
 
 **`Audio`**
 
@@ -377,9 +377,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 30 — Voice AI App: Chatbot بالصوت
+### Day 30 — Voice AI App: Voice-Powered Chatbot
 
-اجمع Whisper + LLM + ElevenLabs في تطبيق واحد: تكلّم مع AI وهو يرد بصوت.
+Combine Whisper + LLM + ElevenLabs in one app: speak to AI and it responds with voice.
 
 **`Project` · `Voice`**
 
@@ -389,9 +389,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 31 — Function Calling وTool Use
+### Day 31 — Function Calling & Tool Use
 
-خلّي LLM يستدعي APIs خارجية وينفّذ أكواد. الأساس لبناء AI Agents.
+Make LLMs call external APIs and execute code. The foundation for building AI Agents.
 
 **`Function Calling`**
 
@@ -401,9 +401,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 32 — LlamaIndex: RAG على مستوى آخر
+### Day 32 — LlamaIndex: RAG at a Higher Level
 
-تعلّم LlamaIndex كبديل أقوى وأسهل لـ LangChain في بناء RAG Systems.
+Learn LlamaIndex as a powerful alternative to LangChain for building RAG systems.
 
 **`LlamaIndex`**
 
@@ -413,9 +413,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 33 — FastAPI: API للـ AI Model
+### Day 33 — FastAPI: API Server for Your AI Model
 
-اعمل REST API لنموذجك باستخدام FastAPI. خلّي أي تطبيق يقدر يستخدم AI بتاعك.
+Build a REST API for your model using FastAPI. Let any application consume your AI.
 
 **`FastAPI` · `Backend`**
 
@@ -427,7 +427,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 34 — Multimodal AI: Vision Models
 
-استخدم GPT-4V أو Claude Vision لتحليل الصور ووصفها وسؤالها.
+Use GPT-4V or Claude Vision to analyze images, describe them, and answer questions about them.
 
 **`Vision` · `Multimodal`**
 
@@ -437,9 +437,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 35 — ابنِ AI Document Analyzer
+### Day 35 — Build an AI Document Analyzer
 
-مشروع: رفع صور أو PDFs وسؤالها — Financial Reports Analyzer أو Invoice Extractor.
+Project: Upload images or PDFs and query them — Financial Reports Analyzer or Invoice Extractor.
 
 **`Project` · `Vision`**
 
@@ -449,9 +449,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 36 — Evaluation: كيف تقيّم نموذجك؟
+### Day 36 — Evaluation: How to Measure Your Model
 
-تعلّم BLEU, ROUGE, وLLM-as-Judge. العلاج من الـ Hallucinations.
+Learn BLEU, ROUGE, and LLM-as-Judge. The cure for hallucinations.
 
 **`Evaluation`**
 
@@ -461,9 +461,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 37 — Prompt Injection وAI Security
+### Day 37 — Prompt Injection & AI Security
 
-افهم أخطار الـ Prompt Injection وكيف تحمي تطبيقك من الهجمات والـ Jailbreaks.
+Understand the risks of Prompt Injection and how to protect your app from attacks and jailbreaks.
 
 **`Security`**
 
@@ -473,9 +473,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 38 — Caching وOptimization
+### Day 38 — Caching & Optimization
 
-وفّر 90% من تكلفة API بـ Semantic Caching. تعلّم GPTCache وتقنيات التحسين.
+Save 90% of API costs with Semantic Caching. Learn GPTCache and optimization techniques.
 
 **`Performance`**
 
@@ -487,7 +487,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 39 — Observability: Monitoring AI Apps
 
-تابع وراقب أداء تطبيقك AI باستخدام LangSmith أو Weights & Biases.
+Track and monitor your AI app's performance using LangSmith or Weights & Biases.
 
 **`MLOps`**
 
@@ -499,7 +499,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 40 — 🎯 Milestone: Customer Service Bot
 
-ابنِ Customer Support Bot كامل: **RAG + Memory + FastAPI + Streamlit UI**.
+Build a complete Customer Support Bot: **RAG + Memory + FastAPI + Streamlit UI**.
 
 **`Milestone` · `Full Stack`**
 
@@ -509,15 +509,15 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-## 🟢 المرحلة الثالثة — الـ AI Agents والأتمتة (Days 41–60)
+## 🟢 Phase 3 — AI Agents & Automation (Days 41–60)
 
-> بنِ Agents ذكية تتصرف باستقلالية، وتعلّم LangGraph وCrewAI وأدوات الأتمتة
+> Build intelligent Agents that act autonomously. Learn LangGraph, CrewAI, and automation tools
 
 ---
 
-### Day 41 — AI Agents: المفهوم الكامل
+### Day 41 — AI Agents: The Full Concept
 
-ما الفرق بين Chain وAgent؟ تعلّم ReAct Pattern وكيف Agent يخطط وينفّذ.
+What's the difference between a Chain and an Agent? Learn the ReAct Pattern and how agents plan and execute.
 
 **`Agents`**
 
@@ -527,9 +527,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 42 — أول Agent بسيط من Scratch
+### Day 42 — Build Your First Simple Agent from Scratch
 
-ابنِ Agent باستخدام OpenAI + Function Calling بدون أي Framework.
+Build an Agent using OpenAI + Function Calling — no framework needed.
 
 **`Agents` · `Project`**
 
@@ -541,7 +541,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 43 — LangGraph: Stateful Agents
 
-تعلّم LangGraph لبناء Agents معقدة مع State Management وConditions.
+Learn LangGraph to build complex agents with State Management and Conditions.
 
 **`LangGraph`**
 
@@ -551,9 +551,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 44 — Tools وExternal APIs في Agents
+### Day 44 — Tools & External APIs in Agents
 
-أعطِ Agent أدوات: Web Search, Calculator, Database, Email, Calendar.
+Give your agent tools: Web Search, Calculator, Database, Email, Calendar.
 
 **`Agents` · `Tools`**
 
@@ -565,7 +565,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 45 — CrewAI: Multi-Agent Systems
 
-ابنِ فريق من Agents كل واحد له دور مختلف ويتعاونوا مع بعض.
+Build a team of Agents, each with a different role, that collaborate together.
 
 **`CrewAI` · `Multi-Agent`**
 
@@ -575,9 +575,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 46 — Web Scraping Agent: جمع البيانات ذاتياً
+### Day 46 — Web Scraping Agent: Autonomous Data Collection
 
-ابنِ Agent يبحث في الإنترنت، يجمع بيانات، ويكتب تقارير بشكل أوتوماتيكي.
+Build an agent that searches the internet, collects data, and writes reports automatically.
 
 **`Agents` · `Project`**
 
@@ -589,7 +589,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 47 — Code Interpreter Agent
 
-ابنِ Agent يكتب Python ويشغّله ويصحّح أخطاءه بنفسه — مثل ChatGPT Code Interpreter.
+Build an agent that writes Python, runs it, and fixes its own errors — like ChatGPT's Code Interpreter.
 
 **`Agents` · `Code`**
 
@@ -601,7 +601,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 48 — n8n: No-Code AI Automation
 
-ابنِ workflows أتمتة ذكية بدون كود باستخدام n8n: Email, Slack, Database, AI.
+Build intelligent automation workflows without code using n8n: Email, Slack, Database, AI.
 
 **`Automation` · `No-Code`**
 
@@ -613,19 +613,19 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 49 — OpenAI Assistants API
 
-استخدم Assistants API لبناء Agents قوية مع File Search, Code Interpreter.
+Use the Assistants API to build powerful agents with File Search and Code Interpreter.
 
 **`Assistants` · `OpenAI`**
 
 - 📚 [OpenAI Assistants API Docs](https://platform.openai.com/docs/assistants)
 - 🎬 [Assistants API Tutorial](https://www.youtube.com/watch?v=Kx7hISJRMrI)
-- 🎬 [Build Assistant from Scratch](https://www.youtube.com/watch?v=k0GTaHGVEFI)
+- 🎬 [Build an Assistant from Scratch](https://www.youtube.com/watch?v=k0GTaHGVEFI)
 
 ---
 
-### Day 50 — 🎯 النقطة الوسط: مراجعة شاملة
+### Day 50 — 🎯 Halfway Point: Full Review
 
-راجع كل اللي اتعلمته، نظّم GitHub Profile، وابنِ Portfolio Project.
+Review everything you've learned, organize your GitHub profile, and build a portfolio project.
 
 **`Milestone`**
 
@@ -637,7 +637,7 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ### Day 51 — AutoGen: Microsoft Multi-Agent Framework
 
-جرّب AutoGen لبناء agents تتكلم مع بعض وتحل مشاكل معقدة.
+Try AutoGen to build agents that talk to each other and solve complex problems.
 
 **`AutoGen` · `Multi-Agent`**
 
@@ -647,9 +647,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 52 — Browser Agent: تحكّم في المتصفح
+### Day 52 — Browser Agent: Control the Browser
 
-ابنِ Agent يفتح مواقع، يملأ نماذج، يضغط أزرار — Automation بالـ AI.
+Build an agent that opens websites, fills forms, and clicks buttons — AI-powered automation.
 
 **`Browser` · `Automation`**
 
@@ -659,21 +659,21 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 53 — Computer Use: AI يتحكم في الكمبيوتر
+### Day 53 — Computer Use: AI Controls the Computer
 
-تجربة Claude Computer Use وتعلّم كيف AI يرى الشاشة ويتحكم فيها.
+Explore Claude Computer Use and learn how AI can see the screen and interact with it.
 
 **`Computer Use`**
 
 - 📚 [Anthropic Computer Use Docs](https://docs.anthropic.com/claude/docs/computer-use)
 - 🎬 [Claude Computer Use Demo](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
-- 🎬 [Build Computer Use Agent](https://www.youtube.com/watch?v=vH2f7cjXjKI)
+- 🎬 [Build a Computer Use Agent](https://www.youtube.com/watch?v=vH2f7cjXjKI)
 
 ---
 
 ### Day 54 — MCP: Model Context Protocol
 
-تعلّم البروتوكول الجديد اللي بيخلّي AI Models تتكلم مع أي Tool.
+Learn the new protocol that lets AI models communicate with any tool or service.
 
 **`MCP`**
 
@@ -683,9 +683,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 55 — Agentic RAG: Agent + RAG مع بعض
+### Day 55 — Agentic RAG: Agent + RAG Combined
 
-ابنِ Agent يقرر متى يبحث في Documents ومتى يستخدم معرفته العامة.
+Build an agent that decides when to search documents and when to use its general knowledge.
 
 **`RAG` · `Agents`**
 
@@ -695,9 +695,9 @@ Document Loaders + Text Splitters + Embeddings + Vector Store + Retriever. كو�
 
 ---
 
-### Day 56 — Routing وConditional Logic في Agents
+### Day 56 — Routing & Conditional Logic in Agents
 
-Agents بتاخد قرارات: Router Chain, Conditional Branching, Self-Reflection.
+Agents make decisions: Router Chains, Conditional Branching, Self-Reflection.
 
 **`LangGraph` · `Advanced`**
 
@@ -709,7 +709,7 @@ Agents بتاخد قرارات: Router Chain, Conditional Branching, Self-Reflec
 
 ### Day 57 — Testing AI Applications
 
-اعمل Unit Tests لـ Prompts وEvaluations لـ RAG. ضمان جودة AI Apps.
+Write Unit Tests for prompts and Evaluations for RAG. Quality assurance for AI apps.
 
 **`Testing`**
 
@@ -719,9 +719,9 @@ Agents بتاخد قرارات: Router Chain, Conditional Branching, Self-Reflec
 
 ---
 
-### Day 58 — Guardrails وContent Safety
+### Day 58 — Guardrails & Content Safety
 
-حمِ تطبيقك من المحتوى الضار. استخدم Guardrails AI وNeMo Guardrails.
+Protect your app from harmful content using Guardrails AI and NeMo Guardrails.
 
 **`Safety`**
 
@@ -733,7 +733,7 @@ Agents بتاخد قرارات: Router Chain, Conditional Branching, Self-Reflec
 
 ### Day 59 — Real-time Streaming Responses
 
-خلّي تطبيقك يعرض الإجابة وهي بتتكتب مثل ChatGPT. Server-Sent Events وWebSockets.
+Make your app display answers as they're being typed — like ChatGPT. Server-Sent Events and WebSockets.
 
 **`Streaming`**
 
@@ -745,7 +745,7 @@ Agents بتاخد قرارات: Router Chain, Conditional Branching, Self-Reflec
 
 ### Day 60 — 🎯 Milestone: Research Agent
 
-ابنِ **Research Agent**: يبحث في الإنترنت، يقرأ مقالات، ويكتب تقرير شامل.
+Build a **Research Agent**: searches the internet, reads articles, and writes a comprehensive report.
 
 **`Milestone` · `Full Agent`**
 
@@ -755,15 +755,15 @@ Agents بتاخد قرارات: Router Chain, Conditional Branching, Self-Reflec
 
 ---
 
-## 🟡 المرحلة الرابعة — Fine-tuning والنشر الاحترافي (Days 61–80)
+## 🟡 Phase 4 — Fine-tuning & Professional Deployment (Days 61–80)
 
-> Fine-tune النماذج، ابنِ APIs، انشر على الـ Cloud، وتعلّم MLOps للـ Production
+> Fine-tune models, build APIs, deploy to the cloud, and learn MLOps for production
 
 ---
 
-### Day 61 — Fine-tuning: تخصيص النماذج
+### Day 61 — Fine-tuning: Customizing Models
 
-متى تعمل Fine-tuning ومتى تستخدم Prompt Engineering بدلاً منه؟
+When should you fine-tune vs. use Prompt Engineering?
 
 **`Fine-tuning`**
 
@@ -773,9 +773,9 @@ Agents بتاخد قرارات: Router Chain, Conditional Branching, Self-Reflec
 
 ---
 
-### Day 62 — Dataset Preparation للـ Fine-tuning
+### Day 62 — Dataset Preparation for Fine-tuning
 
-كيف تجهّز بياناتك؟ JSONL Format, Data Cleaning, Train/Val Split.
+How to prepare your data: JSONL format, Data Cleaning, Train/Val Split.
 
 **`Fine-tuning` · `Data`**
 
@@ -785,9 +785,9 @@ Agents بتاخد قرارات: Router Chain, Conditional Branching, Self-Reflec
 
 ---
 
-### Day 63 — Fine-tune GPT-3.5 عملياً
+### Day 63 — Fine-tune GPT-3.5 in Practice
 
-نفّذ Fine-tuning فعلي على GPT-3.5 Turbo. اتبع الخطوات خطوة بخطوة.
+Execute a real fine-tuning job on GPT-3.5 Turbo. Step-by-step walkthrough.
 
 **`Fine-tuning` · `OpenAI`**
 
@@ -797,21 +797,21 @@ Agents بتاخد قرارات: Router Chain, Conditional Branching, Self-Reflec
 
 ---
 
-### Day 64 — LoRA وQLoRA: Fine-tune مجاناً
+### Day 64 — LoRA & QLoRA: Fine-tune for Free
 
-Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA. مجاني في Colab!
+Fine-tune large models on a small GPU using LoRA and QLoRA. Free on Google Colab!
 
 **`LoRA` · `Open Source`**
 
 - 🎬 [LoRA Fine-tuning Tutorial](https://www.youtube.com/watch?v=Us5ZFp16PaU)
 - 📚 [Unsloth: Fast Fine-tuning (GitHub)](https://github.com/unslothai/unsloth)
-- 📚 [DeepLearning.AI: LoRA (Free)](https://www.deeplearning.ai/short-courses/efficiently-serving-llms/)
+- 📚 [DeepLearning.AI: Efficiently Serving LLMs (Free)](https://www.deeplearning.ai/short-courses/efficiently-serving-llms/)
 
 ---
 
-### Day 65 — Hugging Face PEFT وTransformers
+### Day 65 — Hugging Face PEFT & Transformers
 
-استخدم PEFT library لـ Parameter-Efficient Fine-Tuning على أي نموذج.
+Use the PEFT library for Parameter-Efficient Fine-Tuning on any model.
 
 **`HuggingFace` · `Fine-tuning`**
 
@@ -821,21 +821,21 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 66 — Docker للـ AI Apps
+### Day 66 — Docker for AI Apps
 
-ضع تطبيقك في Docker Container. تعلّم Dockerfile, docker-compose, ENV vars.
+Put your app in a Docker container. Learn Dockerfile, docker-compose, and ENV vars.
 
 **`Docker` · `DevOps`**
 
 - 🎬 [Docker for Data Scientists](https://www.youtube.com/watch?v=0TFWtfFY87U)
-- 🎬 [Dockerize FastAPI App](https://www.youtube.com/watch?v=bi0cKgmRuiA)
+- 🎬 [Dockerize a FastAPI App](https://www.youtube.com/watch?v=bi0cKgmRuiA)
 - 📚 [Docker Official Docs](https://docs.docker.com/get-started/)
 
 ---
 
-### Day 67 — Deploy على AWS / GCP / Azure
+### Day 67 — Deploy on AWS / GCP / Azure
 
-انشر تطبيقك على السحابة. تعلّم EC2, Lambda, Cloud Run — مجاناً في البداية.
+Ship your app to the cloud. Learn EC2, Lambda, and Cloud Run — free tier to start.
 
 **`Cloud` · `Deploy`**
 
@@ -845,9 +845,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 68 — Serverless AI: Vercel وRailway
+### Day 68 — Serverless AI: Vercel & Railway
 
-أسهل طريقة للنشر: Vercel وRailway وRender. Deploy في دقيقتين.
+The easiest way to deploy: Vercel, Railway, and Render. Ship in two minutes.
 
 **`Deploy` · `Serverless`**
 
@@ -857,9 +857,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 69 — CI/CD للـ AI Projects
+### Day 69 — CI/CD for AI Projects
 
-اعمل Pipeline تلقائي: GitHub Actions → Test → Build → Deploy عند كل Push.
+Build an automated pipeline: GitHub Actions → Test → Build → Deploy on every push.
 
 **`DevOps` · `CI/CD`**
 
@@ -869,9 +869,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 70 — Database للـ AI Apps
+### Day 70 — Databases for AI Apps
 
-خزّن User Data, Conversations, وEmbeddings في قاعدة بيانات حقيقية.
+Store User Data, Conversations, and Embeddings in a real database: PostgreSQL and MongoDB.
 
 **`Database`**
 
@@ -881,9 +881,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 71 — Authentication وUser Management
+### Day 71 — Authentication & User Management
 
-أضف نظام تسجيل دخول للتطبيق: Auth0, Supabase Auth, أو Firebase.
+Add a login system: Auth0, Supabase Auth, or Firebase.
 
 **`Auth`**
 
@@ -893,9 +893,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 72 — Rate Limiting وAPI Management
+### Day 72 — Rate Limiting & API Management
 
-حمِ API بتاعتك من الإساءة: Rate Limiting, API Keys, Usage Tracking.
+Protect your API from abuse: Rate Limiting, API Keys, Usage Tracking.
 
 **`API` · `Security`**
 
@@ -905,9 +905,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 73 — Logging وMonitoring في Production
+### Day 73 — Logging & Production Monitoring
 
-راقب تطبيقك: Errors, Performance, Cost. استخدم Sentry وPrometheus.
+Monitor your app: Errors, Performance, Cost. Use Sentry and Prometheus.
 
 **`Monitoring`**
 
@@ -917,9 +917,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 74 — Cost Optimization في Production
+### Day 74 — Cost Optimization in Production
 
-قلّل تكاليف AI APIs: Batching, Caching, Model Selection, Compression.
+Cut AI API costs: Batching, Caching, Model Selection, Compression.
 
 **`Costs` · `Optimization`**
 
@@ -931,7 +931,7 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ### Day 75 — Scaling AI Applications
 
-تعامل مع آلاف المستخدمين: Load Balancing, Queue Systems, Horizontal Scaling.
+Handle thousands of users: Load Balancing, Queue Systems, Horizontal Scaling.
 
 **`Scale` · `Advanced`**
 
@@ -941,9 +941,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 76 — Next.js وAI: Full Stack Web App
+### Day 76 — Next.js & AI: Full Stack Web App
 
-ابنِ تطبيق AI بـ Next.js وReact. Vercel AI SDK يخلّي Streaming سهل جداً.
+Build an AI app with Next.js and React. The Vercel AI SDK makes streaming trivially easy.
 
 **`Frontend` · `Next.js`**
 
@@ -955,7 +955,7 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ### Day 77 — Mobile AI: React Native
 
-خذ تطبيق AI للموبايل باستخدام React Native + Expo + AI APIs.
+Bring your AI app to mobile using React Native + Expo + AI APIs.
 
 **`Mobile`**
 
@@ -965,9 +965,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 78 — MLflow وExperiment Tracking
+### Day 78 — MLflow & Experiment Tracking
 
-تتبّع التجارب والنتائج باستخدام MLflow. لازم لكل مشروع Fine-tuning.
+Track experiments and results with MLflow. Essential for every fine-tuning project.
 
 **`MLOps`**
 
@@ -977,9 +977,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 79 — A/B Testing لـ AI Models
+### Day 79 — A/B Testing AI Models
 
-قارن بين نماذج مختلفة في Production واختر الأحسن بناءً على بيانات حقيقية.
+Compare different models in production and choose the best one based on real data.
 
 **`Testing` · `Production`**
 
@@ -991,7 +991,7 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ### Day 80 — 🎯 Milestone: SaaS Tool
 
-ابنِ **SaaS Tool** صغير جاهز للبيع: Fine-tuned Model + Auth + Billing + Deploy.
+Build a small **SaaS Tool** ready to sell: Fine-tuned Model + Auth + Billing + Deploy.
 
 **`Milestone` · `SaaS`**
 
@@ -1001,15 +1001,15 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-## 🔴 المرحلة الخامسة — بناء منتج AI حقيقي (Days 81–100)
+## 🔴 Phase 5 — Building a Real AI Product (Days 81–100)
 
-> الجمع بين كل ما تعلمته لبناء منتج AI كامل من الفكرة حتى الإطلاق
+> Bring everything together to build a complete AI product from idea to launch
 
 ---
 
-### Day 81 — Product Thinking للـ AI
+### Day 81 — Product Thinking for AI
 
-كيف تختار فكرة AI Product ناجحة؟ تعلّم Product-Market Fit وUser Research.
+How do you choose a winning AI product idea? Learn Product-Market Fit and User Research.
 
 **`Product`**
 
@@ -1019,9 +1019,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 82 — Competitive Analysis في AI
+### Day 82 — Competitive Analysis in AI
 
-ادرس المنافسين، افهم Differentiation، وحدد الـ Niche اللي هتملكه.
+Study competitors, understand differentiation, and identify the niche you'll own.
 
 **`Strategy`**
 
@@ -1031,9 +1031,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 83 — User Research وValidation
+### Day 83 — User Research & Validation
 
-كلّم 10 مستخدمين قبل ما تكتب كود. الـ Validation يوفّر أشهر من العمل الضائع.
+Talk to 10 users before writing a single line of code. Validation saves months of wasted work.
 
 **`Research`**
 
@@ -1043,9 +1043,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 84 — ابنِ MVP في أسبوع
+### Day 84 — Build an MVP in One Week
 
-اعمل MVP حقيقي خلال أسبوع. تعلّم Rapid Prototyping وShip Fast.
+Build a real MVP in a week. Learn Rapid Prototyping and the art of shipping fast.
 
 **`MVP` · `Ship`**
 
@@ -1055,9 +1055,9 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 85 — Landing Page وMarketing Copy
+### Day 85 — Landing Page & Marketing Copy
 
-ابنِ Landing Page تحوّل الزوار لمستخدمين. تعلّم كيف تكتب AI Marketing Copy.
+Build a landing page that converts visitors to users. Learn how to write AI marketing copy.
 
 **`Marketing`**
 
@@ -1067,21 +1067,21 @@ Fine-tune نماذج ضخمة على GPU صغير باستخدام LoRA وQLoRA.
 
 ---
 
-### Day 86 — Monetization: كيف تكسب من AI Product
+### Day 86 — Monetization: How to Earn from an AI Product
 
-Freemium, Subscription, Pay-per-Use. Stripe Integration وPricing Strategy.
+Freemium, Subscription, Pay-per-Use. Stripe Integration and Pricing Strategy.
 
 **`Business` · `Revenue`**
 
-- 🎬 [Monetize AI Tool](https://www.youtube.com/watch?v=2Jf_7dEkKxo)
+- 🎬 [Monetize an AI Tool](https://www.youtube.com/watch?v=2Jf_7dEkKxo)
 - 📚 [Stripe Official Docs](https://stripe.com/docs)
 - 🎬 [Pricing AI Products](https://www.youtube.com/watch?v=lJjptvzE44E)
 
 ---
 
-### Day 87 — SEO وContent Marketing للـ AI Tools
+### Day 87 — SEO & Content Marketing for AI Tools
 
-واجعل الناس يلاقوا أداتك على Google. تعلّم Technical SEO وContent Strategy.
+Get people to find your tool on Google. Learn Technical SEO and Content Strategy.
 
 **`Marketing` · `SEO`**
 
@@ -1091,9 +1091,9 @@ Freemium, Subscription, Pay-per-Use. Stripe Integration وPricing Strategy.
 
 ---
 
-### Day 88 — Community Building وLaunch Strategy
+### Day 88 — Community Building & Launch Strategy
 
-ابنِ Waitlist، إطلق على ProductHunt، واشتغل في Reddit وTwitter/X.
+Build a waitlist, launch on ProductHunt, and work Reddit and Twitter/X.
 
 **`Launch`**
 
@@ -1103,9 +1103,9 @@ Freemium, Subscription, Pay-per-Use. Stripe Integration وPricing Strategy.
 
 ---
 
-### Day 89 — Customer Feedback وIteration
+### Day 89 — Customer Feedback & Iteration
 
-اجمع Feedback، حلّل البيانات، واتخذ قرارات بناءً على Data مش Opinions.
+Collect feedback, analyze data, and make decisions based on data — not opinions.
 
 **`Product`**
 
@@ -1115,21 +1115,21 @@ Freemium, Subscription, Pay-per-Use. Stripe Integration وPricing Strategy.
 
 ---
 
-### Day 90 — Scale: من 10 لـ 10,000 مستخدم
+### Day 90 — Scale: From 10 to 10,000 Users
 
-تعلّم كيف تتعامل مع النمو: Infrastructure Scaling وOnboarding Automation.
+Learn how to handle growth: Infrastructure Scaling and Onboarding Automation.
 
 **`Scale` · `Growth`**
 
-- 🎬 [Scale AI Startup](https://www.youtube.com/watch?v=n27NKXLHBWM)
+- 🎬 [Scale an AI Startup](https://www.youtube.com/watch?v=n27NKXLHBWM)
 - 📚 [YC Growth Advice Library](https://www.ycombinator.com/library)
 - 🎬 [Product Led Growth for AI](https://www.youtube.com/watch?v=7tl7pG1OVMQ)
 
 ---
 
-### Day 91 — AI Ethics وResponsible AI
+### Day 91 — AI Ethics & Responsible AI
 
-Bias Detection, Fairness, Transparency. كيف تبني AI أخلاقي ومسؤول.
+Bias Detection, Fairness, Transparency. How to build ethical and responsible AI.
 
 **`Ethics`**
 
@@ -1139,9 +1139,9 @@ Bias Detection, Fairness, Transparency. كيف تبني AI أخلاقي ومسؤ
 
 ---
 
-### Day 92 — GDPR وData Privacy للـ AI
+### Day 92 — GDPR & Data Privacy for AI
 
-افهم قوانين حماية البيانات وكيف تتعامل مع بيانات المستخدمين بشكل قانوني.
+Understand data protection laws and how to handle user data legally and responsibly.
 
 **`Legal`**
 
@@ -1153,7 +1153,7 @@ Bias Detection, Fairness, Transparency. كيف تبني AI أخلاقي ومسؤ
 
 ### Day 93 — Advanced Prompt Engineering Techniques
 
-Meta-Prompting, Self-Consistency, Tree of Thoughts, Reflexion — للمحترفين.
+Meta-Prompting, Self-Consistency, Tree of Thoughts, Reflexion — for professionals.
 
 **`Advanced` · `Prompting`**
 
@@ -1165,19 +1165,19 @@ Meta-Prompting, Self-Consistency, Tree of Thoughts, Reflexion — للمحترف
 
 ### Day 94 — Custom AI Models: Train from Scratch
 
-تعلّم كيف تبني وتدرّب نموذجك الخاص من الصفر. GPT-like بـ 20M Parameter.
+Learn how to build and train your own model from zero. A GPT-like model with 20M parameters.
 
 **`Advanced` · `Research`**
 
 - 🎬 [Karpathy: Let's Build GPT from Scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 - 📚 [DeepLearning.AI: Pretraining LLMs (Free)](https://www.deeplearning.ai/short-courses/pretraining-llms/)
-- 🎬 [Train LLM Step by Step](https://www.youtube.com/watch?v=UU1WV9opKN4)
+- 🎬 [Train an LLM Step by Step](https://www.youtube.com/watch?v=UU1WV9opKN4)
 
 ---
 
-### Day 95 — AI في التخصصات: Healthcare, Finance, Legal
+### Day 95 — AI in Verticals: Healthcare, Finance, Legal
 
-تعرّف على تطبيقات AI في القطاعات المختلفة وفرص العمل الكبيرة فيها.
+Explore AI applications across different industries and the major opportunities they offer.
 
 **`Industry` · `Vertical AI`**
 
@@ -1187,9 +1187,9 @@ Meta-Prompting, Self-Consistency, Tree of Thoughts, Reflexion — للمحترف
 
 ---
 
-### Day 96 — Stay Updated: متابعة مجال AI المتغيّر
+### Day 96 — Stay Updated: Following a Fast-Moving Field
 
-الـ AI يتغيّر كل يوم. تعلّم كيف تتابع آخر الأخبار والأبحاث.
+AI changes every day. Learn how to follow the latest news and research consistently.
 
 **`Learning`**
 
@@ -1199,9 +1199,9 @@ Meta-Prompting, Self-Consistency, Tree of Thoughts, Reflexion — للمحترف
 
 ---
 
-### Day 97 — Build in Public وPersonal Brand
+### Day 97 — Build in Public & Personal Brand
 
-اشتغل بشكل علني على X/Twitter وLinkedIn. هذا يجذب عملاء ومستثمرين.
+Work openly on X/Twitter and LinkedIn. This attracts customers and investors alike.
 
 **`Brand`**
 
@@ -1213,19 +1213,19 @@ Meta-Prompting, Self-Consistency, Tree of Thoughts, Reflexion — للمحترف
 
 ### Day 98 — Open Source Contribution
 
-ساهم في مشاريع AI مفتوحة المصدر: LangChain, Hugging Face, Ollama.
+Contribute to open-source AI projects: LangChain, Hugging Face, Ollama.
 
 **`Open Source`**
 
 - 🌐 [LangChain GitHub](https://github.com/langchain-ai/langchain)
 - 🌐 [HuggingFace GitHub](https://github.com/huggingface)
-- 🎬 [Contribute to Open Source AI](https://www.youtube.com/watch?v=k6KcAdLc884)
+- 🎬 [How to Contribute to Open Source AI](https://www.youtube.com/watch?v=k6KcAdLc884)
 
 ---
 
-### Day 99 — تجهيز الـ Portfolio الاحترافي
+### Day 99 — Build a Professional Portfolio
 
-نظّم GitHub, اعمل Website, واكتب Case Studies لأفضل مشاريعك.
+Organize GitHub, build a personal website, and write case studies for your best projects.
 
 **`Career`**
 
@@ -1235,9 +1235,9 @@ Meta-Prompting, Self-Consistency, Tree of Thoughts, Reflexion — للمحترف
 
 ---
 
-### Day 100 — 🎉 الإطلاق الرسمي!
+### Day 100 — 🎉 Official Launch Day!
 
-إطلق مشروعك الكامل على ProductHunt وشاركه مع العالم. **أنت الآن AI Builder محترف!**
+Launch your complete project on ProductHunt and share it with the world. **You are now a professional AI Builder!**
 
 **`🎉 Launch Day`**
 
@@ -1247,9 +1247,9 @@ Meta-Prompting, Self-Consistency, Tree of Thoughts, Reflexion — للمحترف
 
 ---
 
-## 📚 أهم القنوات على YouTube
+## 📺 Top YouTube Channels
 
-| القناة | التخصص | الرابط |
+| Channel | Specialization | Link |
 |---|---|---|
 | **Andrej Karpathy** | LLM Theory, Build from Scratch | [YouTube](https://www.youtube.com/@AndrejKarpathy) |
 | **3Blue1Brown** | Math & Neural Networks (Animations) | [YouTube](https://www.youtube.com/@3blue1brown) |
@@ -1264,32 +1264,32 @@ Meta-Prompting, Self-Consistency, Tree of Thoughts, Reflexion — للمحترف
 
 ---
 
-## 🌐 أهم المواقع والمصادر
+## 🌐 Top Websites & Resources
 
-| المصدر | الوصف | الرابط |
+| Resource | Description | Link |
 |---|---|---|
-| **DeepLearning.AI** | أفضل كورسات AI مجانية (Andrew Ng) | [deeplearning.ai](https://www.deeplearning.ai/courses) |
-| **Hugging Face** | نماذج مفتوحة المصدر وكورسات مجانية | [huggingface.co](https://huggingface.co/learn) |
-| **Prompt Engineering Guide** | مرجع شامل لـ Prompt Engineering | [promptingguide.ai](https://www.promptingguide.ai) |
-| **LangChain Docs** | توثيق LangChain الرسمي | [python.langchain.com](https://python.langchain.com) |
-| **OpenAI Docs** | توثيق OpenAI APIs | [platform.openai.com](https://platform.openai.com/docs) |
-| **Anthropic Docs** | توثيق Claude APIs | [docs.anthropic.com](https://docs.anthropic.com) |
-| **Kaggle** | مسابقات وكورسات مجانية | [kaggle.com](https://www.kaggle.com/learn) |
-| **Pinecone Learn** | تعلم Vector Databases | [pinecone.io/learn](https://www.pinecone.io/learn/) |
-| **ArXiv** | أحدث أبحاث AI | [arxiv.org](https://arxiv.org/list/cs.AI/recent) |
-| **The Batch** | نشرة AI أسبوعية | [deeplearning.ai/the-batch](https://www.deeplearning.ai/the-batch/) |
+| **DeepLearning.AI** | Best free AI courses (Andrew Ng) | [deeplearning.ai](https://www.deeplearning.ai/courses) |
+| **Hugging Face** | Open-source models & free courses | [huggingface.co](https://huggingface.co/learn) |
+| **Prompt Engineering Guide** | Comprehensive prompting reference | [promptingguide.ai](https://www.promptingguide.ai) |
+| **LangChain Docs** | Official LangChain documentation | [python.langchain.com](https://python.langchain.com) |
+| **OpenAI Docs** | Official OpenAI API documentation | [platform.openai.com](https://platform.openai.com/docs) |
+| **Anthropic Docs** | Official Claude API documentation | [docs.anthropic.com](https://docs.anthropic.com) |
+| **Kaggle** | Competitions & free courses | [kaggle.com](https://www.kaggle.com/learn) |
+| **Pinecone Learn** | Learn Vector Databases | [pinecone.io/learn](https://www.pinecone.io/learn/) |
+| **ArXiv** | Latest AI research papers | [arxiv.org](https://arxiv.org/list/cs.AI/recent) |
+| **The Batch** | Weekly AI newsletter | [deeplearning.ai/the-batch](https://www.deeplearning.ai/the-batch/) |
 
 ---
 
-## 🛠️ أهم الأدوات والـ Frameworks
+## 🛠️ Key Tools & Frameworks
 
-| الأداة | الاستخدام |
+| Tool | Use Case |
 |---|---|
-| **LangChain** | بناء LLM Applications |
+| **LangChain** | Building LLM Applications |
 | **LlamaIndex** | RAG Systems |
 | **LangGraph** | Stateful AI Agents |
 | **CrewAI** | Multi-Agent Systems |
-| **Streamlit** | Web UI سريع |
+| **Streamlit** | Rapid Web UI |
 | **FastAPI** | REST APIs |
 | **Pinecone / Chroma** | Vector Databases |
 | **Ollama** | Local LLMs |
@@ -1299,4 +1299,4 @@ Meta-Prompting, Self-Consistency, Tree of Thoughts, Reflexion — للمحترف
 
 ---
 
-*🚀 صُنع بـ ❤️ — كل الروابط مجانية ومفتوحة المصدر | 2025–2026*
+*🚀 Made with ❤️ — All links are free and open-source | 2025–2026*
